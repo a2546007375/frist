@@ -1,0 +1,18 @@
+
+server:
+  port: 9000
+spring:
+  cloud:
+    config:
+     server:
+       git:
+        #配置文件所在仓库
+          uri: https://gitee.com/qing-yifan-star/dqh-config
+          #登录账号 如果是开源仓库就不用这个
+          username: 2546007375@qq.com
+#          #登录密码 如果是开源仓库不用这个
+          password: dqh2546007375
+            #配置分支文件 (github为main)
+          default-label: master
+        #配置文件所在跟目录
+          search-paths: config

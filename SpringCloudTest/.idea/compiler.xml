@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="testindex" />
+        <module name="testorder" />
+        <module name="test1_user" />
+        <module name="cloudconfig" />
+        <module name="test1_eureka" />
+        <module name="cloudzuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloudconfig" target="1.8" />
+      <module name="cloudzuul" target="1.8" />
+      <module name="test1_eureka" target="1.8" />
+      <module name="test1_index" target="1.8" />
+      <module name="test1_user" target="1.8" />
+      <module name="testindex" target="1.8" />
+      <module name="testorder" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloudconfig" options="-parameters" />
+      <module name="cloudzuul" options="-parameters" />
+      <module name="test1_eureka" options="-parameters" />
+      <module name="test1_index" options="-parameters" />
+      <module name="test1_user" options="-parameters" />
+      <module name="testindex" options="-parameters" />
+      <module name="testorder" options="-parameters" />
+    </option>
+  </component>
+</project>

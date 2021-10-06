@@ -1,0 +1,7 @@
+
+spring:
+   application:
+      name: cloud-user
+   cloud:
+     config:
+       uri: http://127.0.0.1:9000
